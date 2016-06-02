@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdvertiseUnityAds_Example' do
+  pod 'AdvertiseUnityAds', :path => '../'
+
+  target 'AdvertiseUnityAds_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
