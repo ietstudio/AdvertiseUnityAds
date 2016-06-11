@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36081B85B3B6E7BBDEEBFAA8 /* Pods_AdvertiseUnityAds_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6792331C535F23B54F73835 /* Pods_AdvertiseUnityAds_Example.framework */; };
+		162D18C8B29B1F58D8C42D4B /* libPods-AdvertiseUnityAds_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0EECF675473A3C6D3824A /* libPods-AdvertiseUnityAds_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		68B7515EB50EC6F091841773 /* libPods-AdvertiseUnityAds_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5168F3D6C81C1278EE71EC /* libPods-AdvertiseUnityAds_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B4E1CE2E7202BD9C6C3E36AA /* Pods_AdvertiseUnityAds_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE73F81C327B9608C2F6CF7 /* Pods_AdvertiseUnityAds_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5168F3D6C81C1278EE71EC /* libPods-AdvertiseUnityAds_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseUnityAds_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46355B7B3116966CD9272ADD /* Pods-AdvertiseUnityAds_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseUnityAds_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseUnityAds_Example/Pods-AdvertiseUnityAds_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4D64C6C65D0DE7F80C77C4BA /* Pods-AdvertiseUnityAds_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseUnityAds_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseUnityAds_Example/Pods-AdvertiseUnityAds_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		520E29738C4D8CEC3CB76117 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -60,10 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9585121B8BE95744442AD906 /* AdvertiseUnityAds.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdvertiseUnityAds.podspec; path = ../AdvertiseUnityAds.podspec; sourceTree = "<group>"; };
-		9CE73F81C327B9608C2F6CF7 /* Pods_AdvertiseUnityAds_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseUnityAds_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6792331C535F23B54F73835 /* Pods_AdvertiseUnityAds_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseUnityAds_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30E55A91D0A9F21008247E7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C30E55AB1D0A9F4F008247E7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C30E55AD1D0A9F59008247E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DC885EA9F3DE8076C2378FEA /* Pods-AdvertiseUnityAds_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseUnityAds_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseUnityAds_Tests/Pods-AdvertiseUnityAds_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F57850095E792DB3BA2423E7 /* Pods-AdvertiseUnityAds_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseUnityAds_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseUnityAds_Tests/Pods-AdvertiseUnityAds_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE0EECF675473A3C6D3824A /* libPods-AdvertiseUnityAds_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseUnityAds_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF206CE8CAD959055ECC8FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				36081B85B3B6E7BBDEEBFAA8 /* Pods_AdvertiseUnityAds_Example.framework in Frameworks */,
+				68B7515EB50EC6F091841773 /* libPods-AdvertiseUnityAds_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B4E1CE2E7202BD9C6C3E36AA /* Pods_AdvertiseUnityAds_Tests.framework in Frameworks */,
+				162D18C8B29B1F58D8C42D4B /* libPods-AdvertiseUnityAds_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,12 +131,15 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C30E55AD1D0A9F59008247E7 /* SystemConfiguration.framework */,
+				C30E55AB1D0A9F4F008247E7 /* CoreMedia.framework */,
+				C30E55A91D0A9F21008247E7 /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A6792331C535F23B54F73835 /* Pods_AdvertiseUnityAds_Example.framework */,
-				9CE73F81C327B9608C2F6CF7 /* Pods_AdvertiseUnityAds_Tests.framework */,
+				3F5168F3D6C81C1278EE71EC /* libPods-AdvertiseUnityAds_Example.a */,
+				FAE0EECF675473A3C6D3824A /* libPods-AdvertiseUnityAds_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -516,6 +522,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdvertiseUnityAds/AdvertiseUnityAds-Prefix.pch";
 				INFOPLIST_FILE = "AdvertiseUnityAds/AdvertiseUnityAds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdvertiseUnityAds/AdvertiseUnityAds-Prefix.pch";
 				INFOPLIST_FILE = "AdvertiseUnityAds/AdvertiseUnityAds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

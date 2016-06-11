@@ -1,0 +1,46 @@
+PODS:
+  - AdvertiseUnityAds (0.1.0):
+    - GamePluginBase
+    - UnityAds (~> 1.5.6)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - GamePluginBase (0.1.7):
+    - BlocksKit (~> 2.2.5)
+    - MBProgressHUD (~> 0.9.1)
+    - Reachability (~> 3.2)
+  - MBProgressHUD (0.9.2)
+  - Reachability (3.2)
+  - UnityAds (1.5.6)
+
+DEPENDENCIES:
+  - AdvertiseUnityAds (from `../`)
+  - UnityAds (~> 1.5.6)
+
+EXTERNAL SOURCES:
+  AdvertiseUnityAds:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdvertiseUnityAds: b05e5704bcd84773b3816c5d2fc67992694c45a5
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  GamePluginBase: f154df85a4134b2165697728bdab164aaf8681d0
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  UnityAds: 717325c6fe6133fe83f7fd0f2993481df559637e
+
+PODFILE CHECKSUM: aef3405b66af5ebe104c23d449d20f82c7b158cc
+
+COCOAPODS: 1.0.1
