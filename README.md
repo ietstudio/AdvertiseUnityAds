@@ -22,7 +22,7 @@ pod "AdvertiseUnityAds"
 
 ## Author
 
-gaoyang, gaoyang@joycastle.mobi
+gaoyang
 
 ## License
 
